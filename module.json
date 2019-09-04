@@ -7,6 +7,5 @@
         "niceName": "GQStopper",
         "guiName": "SGQ"
     },
-    "version": "1.0",
     "servers": ["https://raw.githubusercontent.com/KYGAS/Stop-Guild-Quitting/master/"]
 }
