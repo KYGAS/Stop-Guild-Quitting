@@ -7,11 +7,12 @@ module.exports = function StopGuildQuitting(dispatch) {
 	command.add('quitguild', {
 		$default() { 
 			enabled = !enabled;
-			if(enabled){
-				command.message('You can quit your guild now. 10 seconds from now you will be prevented to leave the guild again until the .');
+			if(!enabled){
+				command.message('You can quit your guild now.');
 				command.message('10 seconds from now you will be prevented to leave the guild again until the next time you use the command.');
 				setTimeout(function(){
-					enabled = false;
+					enabled = true;
+					command.message("You are safe from leaving the guild again.");
 				}, 10000);
 			}
 			else command.message('You are safe from leaving the guild.');
