@@ -1,0 +1,12 @@
+{
+    "disableAutoUpdate": false,
+    "name": "Stop Guild Quitting",
+    "author": "KYGAS",
+    "description": "Prevents you from accidentally quitting your guild.",
+    "options": {
+        "niceName": "GQStopper",
+        "guiName": "SGQ"
+    },
+    "version": "1.0",
+    "servers": ["https://raw.githubusercontent.com/KYGAS/Stop-Guild-Quitting/master/"],
+}
